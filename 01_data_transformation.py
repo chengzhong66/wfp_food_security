@@ -15,8 +15,7 @@ from shapely.geometry import Point
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-# pth = r"C:\Users\CZhong\Desktop\data_for_test"
-pth = r"Q:\DATA\SPRAIRU\CZ\Code\data_for_test"
+pth = pth
 os.chdir(pth)
 
 food_security = pd.read_csv(os.path.join(pth, 'food_security.csv'))
