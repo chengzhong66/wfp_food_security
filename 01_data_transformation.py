@@ -194,15 +194,6 @@ gdf_merged.rename(columns = {'country_index':'economy_index'}, inplace = True)
 gdf_merged.describe()
 
 
-gdf_merged_rainfall.plot(column='avg_rainfall_mm', legend=True, cmap='Blues')
-plt.title('Average Rainfall by Region')
-plt.show()
-
-sns.lineplot(data=gdf_merged, x='timestamps', y='economy_index', hue='name')
-plt.title('Economy Index Over Time')
-plt.show()
-
-
 
 
 
